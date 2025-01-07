@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
-//https://api.themoviedb.org/3/movie/now_playing?api_key=1a583ba8d30a9e9afb56214a80eb5ec5&language=pt-BR
 function Home(){
     const [filmes, setFilmes] = useState([])
 
@@ -8,7 +7,7 @@ function Home(){
         async function loadFilmes(){
             const response = await api.get("movie/now_playing", {
                 params:{
-                    api_key: "1a583ba8d30a9e9afb56214a80eb5ec5",
+                    api_key: "",
                     language: "pt-BR",
                     page: 1,
                 }
