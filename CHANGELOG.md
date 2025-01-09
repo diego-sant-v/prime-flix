@@ -5,3 +5,7 @@
 - Toasts para notificações.
 - Ocultando api-key
 
+## [1.1.1] - 2025-01-08
+### Adicionado
+- Adicionando README.
+
