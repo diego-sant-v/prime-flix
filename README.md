@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+FilmeFlix
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um site desenvolvido para consumir a API do TMDB (The Movie Database), permitindo que os usuários visualizem filmes em cartaz, adicionem filmes aos favoritos, excluam dos favoritos, assistam a trailers e muito mais.
 
-## Available Scripts
+Índice
 
-In the project directory, you can run:
+Visão Geral
 
-### `npm start`
+Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Como Executar o Projeto
 
-### `npm test`
+Como Usar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Agradecimentos
 
-### `npm run build`
+Visão Geral
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+FilmeFlix é um site simples e intuitivo que permite aos usuários explorar filmes em cartaz, marcar seus favoritos e acessar trailers. O site foi criado como um projeto para prática de desenvolvimento web, utilizando React no frontend e a API do TMDB para fornecer dados.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Funcionalidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Listar filmes em cartaz: Exibe uma lista atualizada de filmes em exibição nos cinemas.
 
-### `npm run eject`
+Favoritar filmes: Adiciona filmes à lista de favoritos do usuário.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Remover dos favoritos: Permite excluir filmes da lista de favoritos.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Assistir trailers: Integração com o YouTube para reproduzir trailers.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Design responsivo: O site funciona bem em dispositivos desktop e móveis.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Tecnologias Utilizadas
 
-## Learn More
+Frontend: React.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Estilização: CSS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Roteamento: React Router
 
-### Code Splitting
+API: TMDB (The Movie Database)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Gerenciamento de Estado: useState e useEffect
 
-### Analyzing the Bundle Size
+Como Executar o Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone o repositório:
 
-### Making a Progressive Web App
+git clone https://github.com/seu-usuario/filmeflix.git
+cd filmeflix
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Instale as dependências:
 
-### Advanced Configuration
+npm install
+# ou
+yarn install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Configure a API key:
 
-### Deployment
+Crie um arquivo .env na raiz do projeto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Adicione a sua chave da API do TMDB no arquivo .env:
 
-### `npm run build` fails to minify
+REACT_APP_API_KEY=suas_chave_da_api_aqui
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Inicie o servidor de desenvolvimento:
+
+npm start
+# ou
+yarn start
+
+Acesse o site:
+Abra http://localhost:3000 no navegador.
+
+Como Usar
+
+Navegar pelos filmes: A página inicial lista os filmes em cartaz.
+
+Favoritar um filme: Clique no botão de favoritos para adicionar o filme à sua lista.
+
+Remover dos favoritos: Acesse a lista de favoritos e clique no botão de excluir.
+
+Assistir trailers: Clique no botão de trailer para assistir ao vídeo correspondente.
+
+Agradecimentos
+
+TMDB: Por fornecer uma API incrível e acessível para desenvolvedores.
+
+React: Pela plataforma poderosa para criar interfaces dinâmicas.
+
+Feito com ❤️ por Diego Sousa.
